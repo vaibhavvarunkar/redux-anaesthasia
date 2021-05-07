@@ -1,0 +1,102 @@
+.physical-exam-main-container{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-around;
+padding: 2%;
+}
+
+.physical-exam-question-container{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.vital-signs-header-container{
+    align-self: center;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #ffa000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: white;
+}
+
+.vital-signs-input-container{
+    align-self: center;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.vitalsign-next-button-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.vitalsign-next-button{
+    cursor: pointer;
+    background-color: #3F2479;
+    color: white;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.blood-pressure-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 250px;
+}
+
+.blood-pressure-container-subcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    align-self: center;
+}
+
+.input-container{
+    width: 20%;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    border: none;
+    height: 40px;
+}
+
+.central-iv-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.central-iv-subcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    align-self: center;
+}
+

@@ -1,0 +1,21 @@
+.savecasemodal-container{
+width: 100%;
+height: 100%;
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;    
+}
+
+.close-without-saving-case-container{
+    cursor: pointer;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #888888;
+    color: white;
+    border-radius: 10px;
+}
+

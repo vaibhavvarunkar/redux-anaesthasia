@@ -1,0 +1,29 @@
+.tab-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color:#3F2479;
+}
+
+.tab-container-tabs{
+    color: #cfd8dc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.tab-container-tabs:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.start-icon{
+    
+    height: 50px;    
+}

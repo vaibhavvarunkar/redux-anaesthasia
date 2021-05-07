@@ -1,0 +1,44 @@
+.favourite-container{
+    margin: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+.favourite-add-more-btn{
+  justify-self: flex-end;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+
+}
+
+.favourite-list-container{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.save-button-container{
+    cursor: pointer;
+    background-color: #3F2479;
+    color: white;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    align-self: center;
+}

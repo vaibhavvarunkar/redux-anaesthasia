@@ -1,0 +1,902 @@
+.case-summary-container{
+    margin-left: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.case1-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+width: 100px;
+height: 100px;
+background-color: #00695c;
+}
+
+.case1-header{
+    color: orange;
+}
+.add-icon{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 25px;
+    color: white;
+    font-size: 50px;
+}
+
+.input-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.separate-input-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+.separate-input-subcontainer{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+
+}
+
+.Unanswered-header{
+    margin-top: 10%;
+    margin-left: 50%;
+    color: orange;
+}
+
+.favourite{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    background-color:#00695c;
+}
+
+.favourite-tabs{
+    width: 20%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.favourite-tabs:hover{
+    color: orange;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+
+.question-counter-container{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+width: 80%;
+background-color: blue;
+height: 80px;
+}
+
+.left-icon{
+    margin-left: 20px;
+    transform: rotate(180deg);
+    color: white;
+    font-size: 50px;
+
+}
+
+.question-counter-container-header{
+    color: white;
+    font-size: 20px;
+}
+
+.question-container{
+    height: 500px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.age-header-container{
+    align-self: center;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #ffa000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: white;
+}
+
+.age-input-container{
+    align-self: center;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ingested-input-container{
+    align-self: center;
+    width: 80%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ingested-type-button{
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border: 1px solid orange;
+    color: black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ingested-selected-type-button{
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border: 1px solid orange;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#3F2479;
+   
+}
+
+
+
+
+.age-input{
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    border-radius: 15px;
+
+   }
+
+.age-type-button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border: 1px solid orange;
+    color: black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.age-selected-type-button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #3F2479;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#3F2479;
+    
+
+}
+
+.age-type-dropdown{
+    width: 30%;
+    
+}
+
+.next-button-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.next-button{
+    cursor: pointer;
+    background-color: #3F2479;
+    color: white;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.gender-header-container{
+    align-self: center;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #ffa000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: white;
+
+}
+
+.gender-input-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gender-type-button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border: 1px solid orange;
+    color: black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gender-selected-type-button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #3F2479;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#3F2479;
+    
+
+}
+
+
+
+
+
+.gender-dropdown{
+    width: 200px;
+    
+}
+
+.patientype-header-container{
+    align-self: center;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #ffa000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: white;
+
+}
+
+.patientype-input-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.patient-type-button-container{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.patient-type-button{
+    width: 100%;
+    cursor: pointer;
+    height: 40px;
+    border: 1px solid orange;
+    color: black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.patient-selected-type-button{
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #3F2479;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#3F2479;
+    
+
+}
+
+
+
+
+
+
+.patientype-dropdown{
+    width: 250px;
+    
+}
+
+.height-header-container{
+    align-self: center;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #ffa000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: white;
+
+}
+
+.height-input-container{
+    align-self: center;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.height-input{
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.height-type-button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border: 1px solid orange;
+    color: black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.height-selected-type-button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #3F2479;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#3F2479;
+    
+
+}
+
+
+.height-type-dropdown{
+    width: 30%;
+    
+}
+
+.weight-header-container{
+    align-self: center;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #ffa000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: white;
+
+}
+
+.weight-input-container{
+    align-self: center;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.weight-input{
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.weight-type-button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border: 1px solid orange;
+    color: black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weight-selected-type-button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #3F2479;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#3F2479;
+    
+
+}
+
+
+.weight-type-dropdown{
+    width: 30%;
+    
+}
+
+
+.ASA-PS-header-container{
+    align-self: center;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #ffa000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: white;
+
+}
+
+.ASA-PS-input-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.asa-ps-button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.asa-ps-type-button{
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+    border: 1px solid orange;
+    color: black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.asaps-selected-type-button{
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #3F2479;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#3F2479;
+    
+
+}
+.emergency-selected-type-button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #3F2479;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#3F2479;
+    
+
+}
+
+.npo-time-type-selected-type-button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #3F2479;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#3F2479;
+    
+
+}
+
+
+
+
+.ASA-PS-dropdown{
+    width: 250px;
+    
+}
+
+
+.Surgery-type-header-container{
+    align-self: center;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #ffa000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: white;
+
+}
+
+.Surgery-type-input-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.Surgery-type-dropdown{
+    width: 250px;
+    
+}
+
+.ANESTHESIA-type-header-container{
+    align-self: center;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #ffa000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: white;
+
+}
+
+.ANESTHESIA-type-input-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.ANESTHESIA-type-dropdown{
+    width: 250px;
+    
+}
+
+.medical-history-header-container{
+    margin-top: 2%;
+    align-self: center;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #ffa000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: white;
+
+}
+
+.medical-history-main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-evenly;
+}
+.medical-history-question-header{
+    margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.unansered-header{
+color: orange;
+margin-left: 20px;
+}
+
+.medical-history-question-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+
+.medical-history-sub-question-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.medical-history-sub-question-counter-container{
+    margin-top: 20px;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.medical-history-sub-question-sub-container{
+   width: 100%;
+   display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.sub-question-container{
+    margin-top: 1.5%;
+    align-self: center;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+  
+}
+
+.option-box-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.input-container-for-other{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.result-container{
+    width: 80%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.answer-container{
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  border-bottom: #eceff1 2px solid; 
+}
+
+.close-case-image{
+    width: 60px;
+    height: 60px;
+    }
+
+.close-case-container{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.medications-header-container{
+    align-self: center;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #ffa000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: white;
+
+}
+.medication-extra-type-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.medication-input{
+    padding-left: 10px;
+    width: 25%;
+    border-radius: 15px;
+}
+
+.medications-input-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.medications-dropdown{
+    width: 250px;
+    
+}
+
+.action-summary{
+    width: 100%;
+    height: 50px;
+    background-color: #e8e8e8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.preop-container{
+    cursor: pointer;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 12px;
+    background-color: blue;
+}
+.gray-circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 12px;
+    background-color: gray;
+
+}
+
+.preop-container-subcontainer{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.action-summary-container{
+    height: 500px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.action-summary-list-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.casename-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active-tab{
+color: white;
+border-bottom: 2px solid white;
+}
+
+.crises-button{
+    margin-right: 20px;
+    margin-bottom: 20px;
+   align-self: flex-end;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border-radius: 40px;
+}

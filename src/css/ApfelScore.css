@@ -1,0 +1,134 @@
+.risk-evalution-question-container{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.risk-evalution-question-container-indivisual{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  padding: 2%;
+}
+
+.apfel-score-question-container{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between
+}
+
+.yes-no-option-continer{
+    width: 50%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.no-option-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    background-color: #1BB193;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.yes-option-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    background-color: #f0f0f0;
+    color: #595959;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.apfel-score-result-container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:space-between ;
+    background-color: #117D67;
+}
+
+.point-result-container{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+width: 50%;
+height: 100%;
+padding: 3%;
+color: white;
+
+}
+
+.percentage-result-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    height: 100%;
+    padding: 3%;
+    color: white;
+      
+}
+
+.reference-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 500px;
+    padding: 4%;
+}
+
+.reference-container-card{
+    cursor: pointer;
+    width: 100%;
+    height: 118px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #f0f0f0;
+}
+
+.reference-img{
+width: 10%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.reference-paragraph{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
